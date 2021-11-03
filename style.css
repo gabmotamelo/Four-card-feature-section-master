@@ -45,6 +45,13 @@ p{
     overflow: hidden;
     margin: 15px;
     width: 350px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+
+.box:hover{
+    transform: scale(1.1);
 }
 
 .box::after{
